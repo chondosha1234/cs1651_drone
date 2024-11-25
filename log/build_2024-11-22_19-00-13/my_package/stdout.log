@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/my_package/my_package.egg-info
+writing ../../build/my_package/my_package.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/chondosha/ros2_ws/build/my_package/build
+creating /home/chondosha/ros2_ws/build/my_package/build/lib
+creating /home/chondosha/ros2_ws/build/my_package/build/lib/my_package
+copying my_package/__init__.py -> /home/chondosha/ros2_ws/build/my_package/build/lib/my_package
+copying my_package/publisher_test.py -> /home/chondosha/ros2_ws/build/my_package/build/lib/my_package
+copying my_package/mavsdk_test.py -> /home/chondosha/ros2_ws/build/my_package/build/lib/my_package
+copying my_package/my_node.py -> /home/chondosha/ros2_ws/build/my_package/build/lib/my_package
+running install
+running install_lib
+creating /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+copying /home/chondosha/ros2_ws/build/my_package/build/lib/my_package/__init__.py -> /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+copying /home/chondosha/ros2_ws/build/my_package/build/lib/my_package/publisher_test.py -> /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+copying /home/chondosha/ros2_ws/build/my_package/build/lib/my_package/mavsdk_test.py -> /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+copying /home/chondosha/ros2_ws/build/my_package/build/lib/my_package/my_node.py -> /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package
+byte-compiling /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/publisher_test.py to publisher_test.cpython-312.pyc
+byte-compiling /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/mavsdk_test.py to mavsdk_test.cpython-312.pyc
+byte-compiling /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/my_node.py to my_node.cpython-312.pyc
+running install_data
+creating /home/chondosha/ros2_ws/install/my_package/share/ament_index
+creating /home/chondosha/ros2_ws/install/my_package/share/ament_index/resource_index
+creating /home/chondosha/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+copying resource/my_package -> /home/chondosha/ros2_ws/install/my_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/chondosha/ros2_ws/install/my_package/share/my_package
+copying launch/mavros.launch.py -> /home/chondosha/ros2_ws/install/my_package/share/my_package
+creating /home/chondosha/ros2_ws/install/my_package/share/my_package/config
+copying config/px4_config.yaml -> /home/chondosha/ros2_ws/install/my_package/share/my_package/config
+running install_egg_info
+Copying ../../build/my_package/my_package.egg-info to /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+running install_scripts
+Installing drone_publisher script to /home/chondosha/ros2_ws/install/my_package/lib/my_package
+Installing mavsdk_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package
+Installing my_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package
+writing list of installed files to '/home/chondosha/ros2_ws/build/my_package/install.log'

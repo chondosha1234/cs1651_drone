@@ -1,0 +1,561 @@
+[0.000000] (-) TimerEvent: {}
+[0.002451] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002657] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.002764] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.081378] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.098729] (-) TimerEvent: {}
+[0.199813] (-) TimerEvent: {}
+[0.300696] (-) TimerEvent: {}
+[0.401454] (-) TimerEvent: {}
+[0.502205] (-) TimerEvent: {}
+[0.602958] (-) TimerEvent: {}
+[0.703618] (-) TimerEvent: {}
+[0.804424] (-) TimerEvent: {}
+[0.905091] (-) TimerEvent: {}
+[1.005979] (-) TimerEvent: {}
+[1.106679] (-) TimerEvent: {}
+[1.207478] (-) TimerEvent: {}
+[1.308206] (-) TimerEvent: {}
+[1.408955] (-) TimerEvent: {}
+[1.509654] (-) TimerEvent: {}
+[1.610395] (-) TimerEvent: {}
+[1.711206] (-) TimerEvent: {}
+[1.812067] (-) TimerEvent: {}
+[1.913480] (-) TimerEvent: {}
+[1.992680] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[1.996483] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.999841] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/chondosha/ros2_ws/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/chondosha/ros2_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chondosha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/chondosha/ros2_ws/install/turtlesim/lib', 'HOME': '/home/chondosha', 'OLDPWD': '/home/chondosha/ros2_ws/src/my_package/my_package', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1993', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chondosha/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'chondosha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chondosha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chondosha-pi:@/tmp/.ICE-unix/1656,unix/chondosha-pi:/tmp/.ICE-unix/1656', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f8ba44df_7efa_4e6a_bea1_72994a64e59e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.JHY7X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/chondosha/ros2_ws/install/turtlesim:/home/chondosha/ros2_ws/install/my_package', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chondosha/ros2_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chondosha/ros2_ws/install/turtlesim:/opt/ros/jazzy:/home/chondosha/ros2_ws/install/my_package'}), 'shell': False}
+[2.016254] (-) TimerEvent: {}
+[2.118024] (-) TimerEvent: {}
+[2.218808] (-) TimerEvent: {}
+[2.323038] (-) TimerEvent: {}
+[2.425066] (-) TimerEvent: {}
+[2.526563] (-) TimerEvent: {}
+[2.561070] (turtlesim) StdoutLine: {'line': b'[  0%] Built target turtlesim__rosidl_generator_type_description\n'}
+[2.626787] (-) TimerEvent: {}
+[2.731762] (-) TimerEvent: {}
+[2.758468] (turtlesim) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_turtlesim\n'}
+[2.834133] (-) TimerEvent: {}
+[2.898075] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[2.934660] (-) TimerEvent: {}
+[2.972718] (turtlesim) StdoutLine: {'line': b'[ 24%] Built target turtlesim__rosidl_generator_c\n'}
+[3.039112] (-) TimerEvent: {}
+[3.141952] (-) TimerEvent: {}
+[3.242809] (-) TimerEvent: {}
+[3.351015] (-) TimerEvent: {}
+[3.439304] (turtlesim) StdoutLine: {'line': b'[ 33%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[3.453015] (-) TimerEvent: {}
+[3.456097] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[3.486930] (turtlesim) StdoutLine: {'line': b'[ 50%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[3.556084] (-) TimerEvent: {}
+[3.661077] (-) TimerEvent: {}
+[3.763557] (-) TimerEvent: {}
+[3.869324] (-) TimerEvent: {}
+[3.935091] (turtlesim) StdoutLine: {'line': b'[ 59%] Built target turtlesim__rosidl_typesupport_c\n'}
+[3.955710] (turtlesim) StdoutLine: {'line': b'[ 68%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[3.971095] (-) TimerEvent: {}
+[4.040943] (turtlesim) StdoutLine: {'line': b'[ 76%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[4.074044] (-) TimerEvent: {}
+[4.174995] (-) TimerEvent: {}
+[4.280994] (-) TimerEvent: {}
+[4.318578] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target turtlesim_node\n'}
+[4.382358] (-) TimerEvent: {}
+[4.417057] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtle_teleop_key\n'}
+[4.463297] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target draw_square\n'}
+[4.486086] (-) TimerEvent: {}
+[4.587339] (-) TimerEvent: {}
+[4.686999] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target mimic\n'}
+[4.688169] (-) TimerEvent: {}
+[4.717267] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim\n'}
+[4.795659] (-) TimerEvent: {}
+[4.904469] (-) TimerEvent: {}
+[5.000957] (turtlesim) StdoutLine: {'line': b'[ 86%] Built target turtlesim__py\n'}
+[5.004674] (-) TimerEvent: {}
+[5.106352] (-) TimerEvent: {}
+[5.210068] (-) TimerEvent: {}
+[5.310992] (-) TimerEvent: {}
+[5.388794] (turtlesim) StdoutLine: {'line': b'[ 94%] Built target turtlesim__rosidl_generator_py\n'}
+[5.411207] (-) TimerEvent: {}
+[5.512066] (-) TimerEvent: {}
+[5.617102] (-) TimerEvent: {}
+[5.706720] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtlesim_s__rosidl_typesupport_fastrtps_c\n'}
+[5.720027] (-) TimerEvent: {}
+[5.745011] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target turtlesim_s__rosidl_typesupport_introspection_c\n'}
+[5.810690] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_s__rosidl_typesupport_c\n'}
+[5.820277] (-) TimerEvent: {}
+[5.924329] (-) TimerEvent: {}
+[6.025059] (-) TimerEvent: {}
+[6.125805] (-) TimerEvent: {}
+[6.137247] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[6.227025] (-) TimerEvent: {}
+[6.327864] (-) TimerEvent: {}
+[6.356981] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[6.360636] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[6.368244] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[6.428663] (-) TimerEvent: {}
+[6.530816] (-) TimerEvent: {}
+[6.631615] (-) TimerEvent: {}
+[6.735340] (-) TimerEvent: {}
+[6.838009] (-) TimerEvent: {}
+[6.939962] (-) TimerEvent: {}
+[7.040870] (-) TimerEvent: {}
+[7.089108] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[7.098082] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[7.142484] (-) TimerEvent: {}
+[7.249280] (-) TimerEvent: {}
+[7.352191] (-) TimerEvent: {}
+[7.424228] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[7.454617] (-) TimerEvent: {}
+[7.535135] (turtlesim) CommandEnded: {'returncode': 0}
+[7.555031] (-) TimerEvent: {}
+[7.655946] (-) TimerEvent: {}
+[7.756663] (-) TimerEvent: {}
+[7.858797] (-) TimerEvent: {}
+[7.959569] (-) TimerEvent: {}
+[8.062042] (-) TimerEvent: {}
+[8.163059] (-) TimerEvent: {}
+[8.281566] (-) TimerEvent: {}
+[8.382453] (-) TimerEvent: {}
+[8.483992] (-) TimerEvent: {}
+[8.586197] (-) TimerEvent: {}
+[8.687005] (-) TimerEvent: {}
+[8.789260] (-) TimerEvent: {}
+[8.890015] (-) TimerEvent: {}
+[8.991053] (-) TimerEvent: {}
+[9.093003] (-) TimerEvent: {}
+[9.193718] (-) TimerEvent: {}
+[9.295295] (-) TimerEvent: {}
+[9.399877] (-) TimerEvent: {}
+[9.503232] (-) TimerEvent: {}
+[9.604494] (-) TimerEvent: {}
+[9.705339] (-) TimerEvent: {}
+[9.806579] (-) TimerEvent: {}
+[9.908329] (-) TimerEvent: {}
+[10.010174] (-) TimerEvent: {}
+[10.099436] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/chondosha/ros2_ws/build/my_package/build', 'install', '--record', '/home/chondosha/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chondosha/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chondosha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/chondosha/ros2_ws/install/turtlesim/lib', 'HOME': '/home/chondosha', 'OLDPWD': '/home/chondosha/ros2_ws/src/my_package/my_package', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1993', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chondosha/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'chondosha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chondosha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chondosha-pi:@/tmp/.ICE-unix/1656,unix/chondosha-pi:/tmp/.ICE-unix/1656', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f8ba44df_7efa_4e6a_bea1_72994a64e59e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.JHY7X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/chondosha/ros2_ws/install/turtlesim:/home/chondosha/ros2_ws/install/my_package', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chondosha/ros2_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chondosha/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages:/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chondosha/ros2_ws/install/turtlesim'}, 'shell': False}
+[10.110455] (-) TimerEvent: {}
+[10.214073] (-) TimerEvent: {}
+[10.296359] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[10.314310] (-) TimerEvent: {}
+[10.404933] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/chondosha/ros2_ws/build/turtlesim'], 'cwd': '/home/chondosha/ros2_ws/build/turtlesim', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chondosha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/home/chondosha/ros2_ws/install/turtlesim/lib', 'HOME': '/home/chondosha', 'OLDPWD': '/home/chondosha/ros2_ws/src/my_package/my_package', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1993', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/chondosha/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'chondosha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chondosha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chondosha-pi:@/tmp/.ICE-unix/1656,unix/chondosha-pi:/tmp/.ICE-unix/1656', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f8ba44df_7efa_4e6a_bea1_72994a64e59e', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.JHY7X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.112', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy:/home/chondosha/ros2_ws/install/turtlesim:/home/chondosha/ros2_ws/install/my_package', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chondosha/ros2_ws/build/turtlesim', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages:/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/chondosha/ros2_ws/install/turtlesim:/opt/ros/jazzy:/home/chondosha/ros2_ws/install/my_package'}), 'shell': False}
+[10.414509] (-) TimerEvent: {}
+[10.487111] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.488207] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[10.489213] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.json\n'}
+[10.490286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.json\n'}
+[10.491402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.json\n'}
+[10.492850] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.json\n'}
+[10.493645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.json\n'}
+[10.494605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.json\n'}
+[10.495415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.json\n'}
+[10.496165] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.json\n'}
+[10.497005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[10.497668] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[10.498666] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[10.499455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__description.c\n'}
+[10.500342] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[10.501261] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[10.502266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[10.503412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[10.505169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[10.507522] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[10.509530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[10.510709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[10.511457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__description.c\n'}
+[10.512316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[10.513250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[10.514239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[10.514868] (-) TimerEvent: {}
+[10.518189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.518923] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[10.519697] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[10.520757] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[10.521700] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[10.522616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[10.523506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[10.524451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[10.525467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[10.526210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__description.c\n'}
+[10.526678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[10.527400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__description.c\n'}
+[10.527935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[10.529721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[10.530881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[10.531720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[10.533429] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[10.534186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[10.534805] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[10.536280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[10.537598] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[10.538792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[10.540246] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[10.540956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[10.541766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[10.542557] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[10.543317] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[10.543984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[10.545662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__description.c\n'}
+[10.547419] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[10.549125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__description.c\n'}
+[10.550171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__description.c\n'}
+[10.550633] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[10.551553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[10.552375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[10.554058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[10.554813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[10.555537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[10.556142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[10.556760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[10.563952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[10.570758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__description.c\n'}
+[10.577812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[10.584092] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[10.591184] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[10.598991] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[10.601242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[10.603430] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[10.606812] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[10.607545] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[10.610782] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[10.611416] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[10.612050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[10.615139] (-) TimerEvent: {}
+[10.615607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.616343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[10.616922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[10.617550] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[10.622510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[10.623143] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[10.624319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[10.632401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[10.655034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[10.655950] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[10.661099] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[10.664815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[10.667140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[10.668210] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[10.668953] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[10.669942] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[10.670611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[10.672773] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.673886] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[10.675051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[10.678619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[10.679298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[10.681139] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[10.681769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[10.687450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[10.693220] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[10.702063] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[10.708047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[10.709655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[10.716718] (-) TimerEvent: {}
+[10.717543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[10.719500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[10.720738] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[10.722174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[10.722910] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[10.724060] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[10.724915] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[10.726107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[10.726755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[10.727904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[10.728905] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[10.729532] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[10.733414] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[10.734043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[10.734521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[10.735022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[10.738521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[10.740448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[10.741316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[10.741802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[10.742436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[10.746440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[10.747774] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[10.748536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[10.751924] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[10.752516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[10.753255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[10.753962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[10.754727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[10.755435] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[10.756205] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[10.756972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[10.758761] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[10.762000] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[10.765174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[10.767584] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[10.769962] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.772256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[10.773058] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.774384] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.775990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[10.778041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[10.779976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[10.781727] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.784519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.786022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.786637] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.787574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[10.788450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.789641] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[10.791221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[10.792442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[10.794732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.795642] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.796595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[10.797692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[10.798732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.799799] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[10.800670] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[10.801809] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[10.802608] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[10.803659] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[10.805811] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[10.806455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[10.806909] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[10.807394] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[10.807803] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[10.808330] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[10.809358] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[10.809929] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[10.810580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[10.811321] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[10.811736] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[10.812244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[10.812709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[10.813266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[10.813740] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[10.814434] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[10.815090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[10.815705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[10.816360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[10.816926] (-) TimerEvent: {}
+[10.820047] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[10.820789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[10.821547] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.822233] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[10.825209] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[10.826083] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.826860] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[10.827593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[10.832461] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[10.833028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.833628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.834203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.834693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[10.838511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[10.839034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[10.839456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.840008] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[10.840562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.842196] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[10.842904] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[10.843589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.844316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[10.851381] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[10.852021] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[10.852647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[10.853370] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[10.857440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info\n'}
+[10.858192] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/SOURCES.txt\n'}
+[10.858881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/top_level.txt\n'}
+[10.859635] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/PKG-INFO\n'}
+[10.863900] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim-1.8.3-py3.12.egg-info/dependency_links.txt\n'}
+[10.865453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim\n'}
+[10.866230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/__init__.py\n'}
+[10.866956] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg\n'}
+[10.867937] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/__init__.py\n'}
+[10.870873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color_s.c\n'}
+[10.873880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose.py\n'}
+[10.875728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_color.py\n'}
+[10.877731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg/_pose_s.c\n'}
+[10.879875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so\n'}
+[10.882174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.884090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.886003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv\n'}
+[10.887440] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn.py\n'}
+[10.888456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/__init__.py\n'}
+[10.889450] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative.py\n'}
+[10.891640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill.py\n'}
+[10.893600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[10.894880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_kill_s.c\n'}
+[10.896152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[10.897553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_spawn_s.c\n'}
+[10.901780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen_s.c\n'}
+[10.903552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_set_pen.py\n'}
+[10.906509] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[10.908403] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\n'}
+[10.913929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[10.916701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\n'}
+[10.918451] (-) TimerEvent: {}
+[10.920348] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action\n'}
+[10.924412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[10.928648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/__init__.py\n'}
+[10.931857] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action/_rotate_absolute.py\n'}
+[11.019077] (-) TimerEvent: {}
+[11.047604] (turtlesim) StdoutLine: {'line': b"Listing '/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim'...\n"}
+[11.048497] (turtlesim) StdoutLine: {'line': b"Listing '/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/action'...\n"}
+[11.049605] (turtlesim) StdoutLine: {'line': b"Listing '/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/msg'...\n"}
+[11.054676] (turtlesim) StdoutLine: {'line': b"Listing '/home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/srv'...\n"}
+[11.119272] (-) TimerEvent: {}
+[11.125549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.127888] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.so\n'}
+[11.136972] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/python3.12/site-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.so\n'}
+[11.137736] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[11.138718] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[11.142538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[11.143316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[11.144449] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[11.148475] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[11.149255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[11.149816] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[11.151009] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[11.151640] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[11.152244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[11.156019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[11.156698] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[11.157359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[11.157873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[11.158423] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[11.163339] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[11.165524] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[11.166897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[11.171507] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[11.173592] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[11.176595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images\n'}
+[11.177318] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[11.178057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[11.181334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[11.183462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/jazzy.png\n'}
+[11.186978] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[11.192974] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[11.194247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[11.195805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[11.201781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[11.203075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[11.204203] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/images/iron.png\n'}
+[11.205117] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/launch\n'}
+[11.206662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[11.207595] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[11.208455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[11.209647] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[11.210385] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[11.211499] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[11.212677] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[11.213657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[11.214410] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[11.215713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[11.217118] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[11.218690] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[11.219807] (-) TimerEvent: {}
+[11.221230] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[11.224412] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[11.225750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.226502] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.227244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.230989] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[11.231808] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.232589] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.233294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.233929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.235022] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[11.236731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.238454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.241239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.249275] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[11.256918] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.264755] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[11.272345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.278764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[11.280301] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.284743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.287286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.288754] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.290248] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.291648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.292516] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[11.293790] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[11.294943] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/chondosha/ros2_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[11.295989] (turtlesim) CommandEnded: {'returncode': 0}
+[11.320460] (-) TimerEvent: {}
+[11.424704] (-) TimerEvent: {}
+[11.526571] (-) TimerEvent: {}
+[11.629393] (-) TimerEvent: {}
+[11.730684] (-) TimerEvent: {}
+[11.831969] (-) TimerEvent: {}
+[11.932620] (-) TimerEvent: {}
+[12.033390] (-) TimerEvent: {}
+[12.135687] (-) TimerEvent: {}
+[12.239027] (-) TimerEvent: {}
+[12.339765] (-) TimerEvent: {}
+[12.441343] (-) TimerEvent: {}
+[12.543198] (-) TimerEvent: {}
+[12.644051] (-) TimerEvent: {}
+[12.746975] (-) TimerEvent: {}
+[12.847733] (-) TimerEvent: {}
+[12.949280] (-) TimerEvent: {}
+[13.050047] (-) TimerEvent: {}
+[13.150765] (-) TimerEvent: {}
+[13.251557] (-) TimerEvent: {}
+[13.353726] (-) TimerEvent: {}
+[13.445135] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[13.454312] (-) TimerEvent: {}
+[13.557490] (-) TimerEvent: {}
+[13.659483] (-) TimerEvent: {}
+[13.764300] (-) TimerEvent: {}
+[13.774019] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[13.775438] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[13.779130] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[13.779935] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[13.785059] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[13.864595] (-) TimerEvent: {}
+[13.965486] (-) TimerEvent: {}
+[14.069809] (-) TimerEvent: {}
+[14.159692] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[14.170216] (-) TimerEvent: {}
+[14.271113] (-) TimerEvent: {}
+[14.297158] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[14.300228] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[14.305523] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[14.310063] (my_package) StdoutLine: {'line': b'running build\n'}
+[14.314586] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[14.317992] (my_package) StdoutLine: {'line': b'copying my_package/drone_test.py -> /home/chondosha/ros2_ws/build/my_package/build/lib/my_package\n'}
+[14.322447] (my_package) StdoutLine: {'line': b'running install\n'}
+[14.356801] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[14.371256] (-) TimerEvent: {}
+[14.471993] (-) TimerEvent: {}
+[14.560971] (my_package) StdoutLine: {'line': b'copying /home/chondosha/ros2_ws/build/my_package/build/lib/my_package/drone_test.py -> /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package\n'}
+[14.564741] (my_package) StdoutLine: {'line': b'byte-compiling /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package/drone_test.py to drone_test.cpython-312.pyc\n'}
+[14.568547] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[14.570022] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[14.572150] (-) TimerEvent: {}
+[14.672763] (-) TimerEvent: {}
+[14.773586] (-) TimerEvent: {}
+[14.782279] (my_package) StdoutLine: {'line': b"removing '/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[14.786970] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info\n'}
+[14.793038] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[14.873789] (-) TimerEvent: {}
+[14.974593] (-) TimerEvent: {}
+[15.075360] (-) TimerEvent: {}
+[15.176139] (-) TimerEvent: {}
+[15.276885] (-) TimerEvent: {}
+[15.377587] (-) TimerEvent: {}
+[15.478517] (-) TimerEvent: {}
+[15.579244] (-) TimerEvent: {}
+[15.680023] (-) TimerEvent: {}
+[15.780771] (-) TimerEvent: {}
+[15.881562] (-) TimerEvent: {}
+[15.982382] (-) TimerEvent: {}
+[16.083530] (-) TimerEvent: {}
+[16.092233] (my_package) StdoutLine: {'line': b'Installing drone_publisher script to /home/chondosha/ros2_ws/install/my_package/lib/my_package\n'}
+[16.095120] (my_package) StdoutLine: {'line': b'Installing mavsdk_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package\n'}
+[16.098919] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package\n'}
+[16.101938] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/chondosha/ros2_ws/build/my_package/install.log'\n"}
+[16.185103] (-) TimerEvent: {}
+[16.286277] (-) TimerEvent: {}
+[16.368869] (my_package) CommandEnded: {'returncode': 0}
+[16.386448] (-) TimerEvent: {}
+[16.414313] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[16.429467] (-) EventReactorShutdown: {}

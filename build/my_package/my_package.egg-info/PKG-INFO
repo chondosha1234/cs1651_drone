@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: my-package
+Version: 0.0.0
+Summary: ROS2 tutorial and practice
+Maintainer: chondosha
+Maintainer-email: jmiller61193@gmail.com
+License: Apache-2.0
+License-File: LICENSE

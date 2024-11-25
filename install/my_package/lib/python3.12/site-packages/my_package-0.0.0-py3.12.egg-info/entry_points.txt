@@ -1,0 +1,4 @@
+[console_scripts]
+drone_publisher = my_package.drone_test:main
+mavsdk_node = my_package.mavsdk_test:main
+my_node = my_package.my_node:main
