@@ -5,7 +5,6 @@ from mavros_msgs.srv import CommandTOL
 from std_msgs.msg import Bool
 
 
-
 class DroneNode(Node):
 
     def __init__(self):
