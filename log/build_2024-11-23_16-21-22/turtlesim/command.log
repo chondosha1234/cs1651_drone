@@ -1,4 +1,0 @@
-Invoking command in '/home/chondosha/ros2_ws/build/turtlesim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chondosha/ros2_ws/build/turtlesim -- -j4 -l4
-Invoked command in '/home/chondosha/ros2_ws/build/turtlesim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chondosha/ros2_ws/build/turtlesim -- -j4 -l4
-Invoking command in '/home/chondosha/ros2_ws/build/turtlesim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chondosha/ros2_ws/build/turtlesim
-Invoked command in '/home/chondosha/ros2_ws/build/turtlesim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/chondosha/ros2_ws/build/turtlesim

@@ -1,0 +1,5 @@
+  File "/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/drone_takeoff_test.py", line 35
+    while !armed:
+          ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,58 @@
+gmake[2]: *** Deleting file 'rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp'
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** wait: No child processes.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/turtle_teleop_key.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:80: CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o] Interrupt
+Traceback (most recent call last):
+gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/turtlesim_node.dir/all] Interrupt
+gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp'
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+    generate_cpp(args.generator_arguments_file)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+    return generate_files(generator_arguments_file, mapping)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 110, in generate_files
+    expand_template(
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 183, in expand_template
+    content = output.getvalue()
+              ^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+KeyboardInterrupt
+    sys.exit(main())
+             ^^^^^^
+  File "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+    generate_c(args.generator_arguments_file, args.typesupports)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+    return generate_files(
+           ^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 95, in generate_files
+    idl_file = parse_idl_file(locator)
+               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 62, in parse_idl_file
+    string = locator.get_absolute_path().read_text(encoding='utf-8')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+    with self.open(mode='r', encoding=encoding, errors=errors) as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 309, in __init__
+KeyboardInterrupt
+Exception ignored in: <function Interpreter.__del__ at 0xffff866d31a0>
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+  File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+  File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+  File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/build.make:97: rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:406: CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_c.dir/build.make:95: rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:379: CMakeFiles/turtlesim__rosidl_typesupport_c.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

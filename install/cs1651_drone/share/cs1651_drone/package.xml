@@ -3,8 +3,8 @@
 <package format="3">
   <name>cs1651_drone</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="chondosha@todo.todo">chondosha</maintainer>
+  <description>CS1651 Class Project</description>
+  <maintainer email="jjm267@pitt.edu">jjm267</maintainer>
   <license>Apache-2.0</license>
 
   <test_depend>ament_copyright</test_depend>

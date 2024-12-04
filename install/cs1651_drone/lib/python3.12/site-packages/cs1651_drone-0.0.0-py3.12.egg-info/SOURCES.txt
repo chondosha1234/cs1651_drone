@@ -5,13 +5,16 @@ setup.py
 ../../build/cs1651_drone/cs1651_drone.egg-info/PKG-INFO
 ../../build/cs1651_drone/cs1651_drone.egg-info/SOURCES.txt
 ../../build/cs1651_drone/cs1651_drone.egg-info/dependency_links.txt
+../../build/cs1651_drone/cs1651_drone.egg-info/entry_points.txt
 ../../build/cs1651_drone/cs1651_drone.egg-info/requires.txt
 ../../build/cs1651_drone/cs1651_drone.egg-info/top_level.txt
 ../../build/cs1651_drone/cs1651_drone.egg-info/zip-safe
 cs1651_drone/__init__.py
 cs1651_drone/camera_node.py
 cs1651_drone/control_node.py
+cs1651_drone/drone_listener.py
 cs1651_drone/drone_node.py
+cs1651_drone/drone_takeoff_test.py
 resource/cs1651_drone
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,220 @@
+[0.000000] (-) TimerEvent: {}
+[0.000835] (cs1651_drone) JobQueued: {'identifier': 'cs1651_drone', 'dependencies': OrderedDict()}
+[0.001073] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.002897] (cs1651_drone) JobStarted: {'identifier': 'cs1651_drone'}
+[0.074567] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.102654] (-) TimerEvent: {}
+[0.205127] (-) TimerEvent: {}
+[0.305895] (-) TimerEvent: {}
+[0.406627] (-) TimerEvent: {}
+[0.508183] (-) TimerEvent: {}
+[0.609582] (-) TimerEvent: {}
+[0.710236] (-) TimerEvent: {}
+[0.811003] (-) TimerEvent: {}
+[0.911878] (-) TimerEvent: {}
+[1.015946] (-) TimerEvent: {}
+[1.117403] (-) TimerEvent: {}
+[1.218097] (-) TimerEvent: {}
+[1.321619] (-) TimerEvent: {}
+[1.422354] (-) TimerEvent: {}
+[1.523730] (-) TimerEvent: {}
+[1.624540] (-) TimerEvent: {}
+[1.725239] (-) TimerEvent: {}
+[1.826083] (-) TimerEvent: {}
+[1.926801] (-) TimerEvent: {}
+[2.027570] (-) TimerEvent: {}
+[2.128797] (-) TimerEvent: {}
+[2.229936] (-) TimerEvent: {}
+[2.330744] (-) TimerEvent: {}
+[2.431603] (-) TimerEvent: {}
+[2.532381] (-) TimerEvent: {}
+[2.633072] (-) TimerEvent: {}
+[2.736680] (-) TimerEvent: {}
+[2.837377] (-) TimerEvent: {}
+[2.938067] (-) TimerEvent: {}
+[3.039810] (-) TimerEvent: {}
+[3.140639] (-) TimerEvent: {}
+[3.241354] (-) TimerEvent: {}
+[3.341999] (-) TimerEvent: {}
+[3.442667] (-) TimerEvent: {}
+[3.543380] (-) TimerEvent: {}
+[3.644072] (-) TimerEvent: {}
+[3.747741] (-) TimerEvent: {}
+[3.851557] (-) TimerEvent: {}
+[3.952346] (-) TimerEvent: {}
+[4.053379] (-) TimerEvent: {}
+[4.154338] (-) TimerEvent: {}
+[4.255442] (-) TimerEvent: {}
+[4.356190] (-) TimerEvent: {}
+[4.456992] (-) TimerEvent: {}
+[4.560650] (-) TimerEvent: {}
+[4.661402] (-) TimerEvent: {}
+[4.765648] (-) TimerEvent: {}
+[4.866408] (-) TimerEvent: {}
+[4.967170] (-) TimerEvent: {}
+[5.070584] (-) TimerEvent: {}
+[5.181618] (-) TimerEvent: {}
+[5.283517] (-) TimerEvent: {}
+[5.384214] (-) TimerEvent: {}
+[5.485184] (-) TimerEvent: {}
+[5.590400] (-) TimerEvent: {}
+[5.691228] (-) TimerEvent: {}
+[5.794642] (-) TimerEvent: {}
+[5.895371] (-) TimerEvent: {}
+[5.996160] (-) TimerEvent: {}
+[6.096958] (-) TimerEvent: {}
+[6.200646] (-) TimerEvent: {}
+[6.301368] (-) TimerEvent: {}
+[6.402079] (-) TimerEvent: {}
+[6.503656] (-) TimerEvent: {}
+[6.604382] (-) TimerEvent: {}
+[6.707394] (-) TimerEvent: {}
+[6.808038] (-) TimerEvent: {}
+[6.908736] (-) TimerEvent: {}
+[7.009432] (-) TimerEvent: {}
+[7.110178] (-) TimerEvent: {}
+[7.211561] (-) TimerEvent: {}
+[7.312386] (-) TimerEvent: {}
+[7.413656] (-) TimerEvent: {}
+[7.517944] (-) TimerEvent: {}
+[7.618956] (-) TimerEvent: {}
+[7.719760] (-) TimerEvent: {}
+[7.820395] (-) TimerEvent: {}
+[7.921080] (-) TimerEvent: {}
+[8.023412] (-) TimerEvent: {}
+[8.124179] (-) TimerEvent: {}
+[8.224934] (-) TimerEvent: {}
+[8.326477] (-) TimerEvent: {}
+[8.429212] (-) TimerEvent: {}
+[8.530001] (-) TimerEvent: {}
+[8.633810] (-) TimerEvent: {}
+[8.734707] (-) TimerEvent: {}
+[8.836412] (-) TimerEvent: {}
+[8.937579] (-) TimerEvent: {}
+[9.038479] (-) TimerEvent: {}
+[9.139664] (-) TimerEvent: {}
+[9.240404] (-) TimerEvent: {}
+[9.343745] (-) TimerEvent: {}
+[9.446453] (-) TimerEvent: {}
+[9.547143] (-) TimerEvent: {}
+[9.647936] (-) TimerEvent: {}
+[9.749735] (-) TimerEvent: {}
+[9.851201] (-) TimerEvent: {}
+[9.936324] (cs1651_drone) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cs1651_drone', 'build', '--build-base', '/home/chondosha/ros2_ws/build/cs1651_drone/build', 'install', '--record', '/home/chondosha/ros2_ws/build/cs1651_drone/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chondosha/ros2_ws/src/cs1651_drone', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chondosha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/chondosha', 'OLDPWD': '/home/chondosha/ros2_ws/src/cs1651_drone/cs1651_drone', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'chondosha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chondosha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chondosha-pi:@/tmp/.ICE-unix/1676,unix/chondosha-pi:/tmp/.ICE-unix/1676', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/00941efd_c950_49d0_8d4a_3f8abefda8ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.MDQ3X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chondosha/ros2_ws/build/cs1651_drone', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chondosha/ros2_ws/build/cs1651_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[9.955641] (-) TimerEvent: {}
+[10.058021] (-) TimerEvent: {}
+[10.163493] (-) TimerEvent: {}
+[10.266335] (-) TimerEvent: {}
+[10.355923] (my_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_package', 'build', '--build-base', '/home/chondosha/ros2_ws/build/my_package/build', 'install', '--record', '/home/chondosha/ros2_ws/build/my_package/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/chondosha/ros2_ws/src/my_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'chondosha', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/chondosha', 'OLDPWD': '/home/chondosha/ros2_ws/src/cs1651_drone/cs1651_drone', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1943', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1002/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'chondosha', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1002.slice/user@1002.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'chondosha', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/chondosha-pi:@/tmp/.ICE-unix/1676,unix/chondosha-pi:/tmp/.ICE-unix/1676', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/00941efd_c950_49d0_8d4a_3f8abefda8ea', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1002', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1002/.mutter-Xwaylandauth.MDQ3X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AUTH_SOCK': '/run/user/1002/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/chondosha/ros2_ws/build/my_package', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/chondosha/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[10.366507] (-) TimerEvent: {}
+[10.467461] (-) TimerEvent: {}
+[10.570504] (-) TimerEvent: {}
+[10.671440] (-) TimerEvent: {}
+[10.772146] (-) TimerEvent: {}
+[10.873234] (-) TimerEvent: {}
+[10.974107] (-) TimerEvent: {}
+[11.077390] (-) TimerEvent: {}
+[11.178010] (-) TimerEvent: {}
+[11.278729] (-) TimerEvent: {}
+[11.379662] (-) TimerEvent: {}
+[11.480448] (-) TimerEvent: {}
+[11.584699] (-) TimerEvent: {}
+[11.687150] (-) TimerEvent: {}
+[11.789435] (-) TimerEvent: {}
+[11.890166] (-) TimerEvent: {}
+[11.993417] (-) TimerEvent: {}
+[12.094204] (-) TimerEvent: {}
+[12.194946] (-) TimerEvent: {}
+[12.295706] (-) TimerEvent: {}
+[12.397818] (-) TimerEvent: {}
+[12.501405] (-) TimerEvent: {}
+[12.602066] (-) TimerEvent: {}
+[12.703052] (-) TimerEvent: {}
+[12.803831] (-) TimerEvent: {}
+[12.905164] (-) TimerEvent: {}
+[12.927678] (cs1651_drone) StdoutLine: {'line': b'running egg_info\n'}
+[12.961557] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[13.008156] (-) TimerEvent: {}
+[13.108848] (-) TimerEvent: {}
+[13.156662] (cs1651_drone) StdoutLine: {'line': b'writing ../../build/cs1651_drone/cs1651_drone.egg-info/PKG-INFO\n'}
+[13.157788] (cs1651_drone) StdoutLine: {'line': b'writing dependency_links to ../../build/cs1651_drone/cs1651_drone.egg-info/dependency_links.txt\n'}
+[13.159229] (cs1651_drone) StdoutLine: {'line': b'writing entry points to ../../build/cs1651_drone/cs1651_drone.egg-info/entry_points.txt\n'}
+[13.161357] (cs1651_drone) StdoutLine: {'line': b'writing requirements to ../../build/cs1651_drone/cs1651_drone.egg-info/requires.txt\n'}
+[13.162812] (cs1651_drone) StdoutLine: {'line': b'writing top-level names to ../../build/cs1651_drone/cs1651_drone.egg-info/top_level.txt\n'}
+[13.166903] (my_package) StdoutLine: {'line': b'writing ../../build/my_package/my_package.egg-info/PKG-INFO\n'}
+[13.168458] (my_package) StdoutLine: {'line': b'writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt\n'}
+[13.169783] (my_package) StdoutLine: {'line': b'writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt\n'}
+[13.171541] (my_package) StdoutLine: {'line': b'writing requirements to ../../build/my_package/my_package.egg-info/requires.txt\n'}
+[13.172551] (my_package) StdoutLine: {'line': b'writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt\n'}
+[13.209049] (-) TimerEvent: {}
+[13.311427] (-) TimerEvent: {}
+[13.412122] (-) TimerEvent: {}
+[13.513428] (-) TimerEvent: {}
+[13.591766] (cs1651_drone) StdoutLine: {'line': b"reading manifest file '../../build/cs1651_drone/cs1651_drone.egg-info/SOURCES.txt'\n"}
+[13.592598] (cs1651_drone) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[13.596428] (cs1651_drone) StdoutLine: {'line': b"writing manifest file '../../build/cs1651_drone/cs1651_drone.egg-info/SOURCES.txt'\n"}
+[13.597478] (cs1651_drone) StdoutLine: {'line': b'running build\n'}
+[13.598502] (cs1651_drone) StdoutLine: {'line': b'running build_py\n'}
+[13.600329] (cs1651_drone) StdoutLine: {'line': b'copying cs1651_drone/drone_listener.py -> /home/chondosha/ros2_ws/build/cs1651_drone/build/lib/cs1651_drone\n'}
+[13.601532] (my_package) StdoutLine: {'line': b"reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[13.602798] (cs1651_drone) StdoutLine: {'line': b'running install\n'}
+[13.603929] (my_package) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[13.606329] (my_package) StdoutLine: {'line': b"writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'\n"}
+[13.607574] (my_package) StdoutLine: {'line': b'running build\n'}
+[13.608562] (my_package) StdoutLine: {'line': b'running build_py\n'}
+[13.610715] (my_package) StdoutLine: {'line': b'running install\n'}
+[13.613621] (-) TimerEvent: {}
+[13.654720] (cs1651_drone) StdoutLine: {'line': b'running install_lib\n'}
+[13.663420] (my_package) StdoutLine: {'line': b'running install_lib\n'}
+[13.713835] (-) TimerEvent: {}
+[13.817625] (-) TimerEvent: {}
+[13.888441] (my_package) StdoutLine: {'line': b'running install_data\n'}
+[13.889756] (my_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.902699] (cs1651_drone) StdoutLine: {'line': b'copying /home/chondosha/ros2_ws/build/cs1651_drone/build/lib/cs1651_drone/drone_listener.py -> /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone\n'}
+[13.904790] (cs1651_drone) StdoutLine: {'line': b'byte-compiling /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/drone_listener.py to drone_listener.cpython-312.pyc\n'}
+[13.911395] (cs1651_drone) StdoutLine: {'line': b'running install_data\n'}
+[13.912215] (cs1651_drone) StdoutLine: {'line': b'running install_egg_info\n'}
+[13.917814] (-) TimerEvent: {}
+[14.020603] (-) TimerEvent: {}
+[14.122113] (-) TimerEvent: {}
+[14.144697] (my_package) StdoutLine: {'line': b"removing '/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[14.157593] (my_package) StdoutLine: {'line': b'Copying ../../build/my_package/my_package.egg-info to /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info\n'}
+[14.172533] (my_package) StdoutLine: {'line': b'running install_scripts\n'}
+[14.217545] (cs1651_drone) StdoutLine: {'line': b"removing '/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[14.220849] (cs1651_drone) StdoutLine: {'line': b'Copying ../../build/cs1651_drone/cs1651_drone.egg-info to /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone-0.0.0-py3.12.egg-info\n'}
+[14.222452] (-) TimerEvent: {}
+[14.233105] (cs1651_drone) StdoutLine: {'line': b'running install_scripts\n'}
+[14.322630] (-) TimerEvent: {}
+[14.423347] (-) TimerEvent: {}
+[14.524102] (-) TimerEvent: {}
+[14.624836] (-) TimerEvent: {}
+[14.725715] (-) TimerEvent: {}
+[14.826563] (-) TimerEvent: {}
+[14.928709] (-) TimerEvent: {}
+[15.030390] (-) TimerEvent: {}
+[15.131010] (-) TimerEvent: {}
+[15.232615] (-) TimerEvent: {}
+[15.334368] (-) TimerEvent: {}
+[15.436905] (-) TimerEvent: {}
+[15.537736] (-) TimerEvent: {}
+[15.621378] (my_package) StdoutLine: {'line': b'Installing drone_publisher script to /home/chondosha/ros2_ws/install/my_package/lib/my_package\n'}
+[15.622605] (my_package) StdoutLine: {'line': b'Installing mavsdk_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package\n'}
+[15.625427] (my_package) StdoutLine: {'line': b'Installing my_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package\n'}
+[15.628353] (my_package) StdoutLine: {'line': b"writing list of installed files to '/home/chondosha/ros2_ws/build/my_package/install.log'\n"}
+[15.638511] (-) TimerEvent: {}
+[15.741338] (-) TimerEvent: {}
+[15.845031] (-) TimerEvent: {}
+[15.946317] (-) TimerEvent: {}
+[15.982714] (my_package) CommandEnded: {'returncode': 0}
+[16.025826] (cs1651_drone) StdoutLine: {'line': b'Installing drone_listener script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone\n'}
+[16.038463] (cs1651_drone) StdoutLine: {'line': b'Installing drone_node script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone\n'}
+[16.046728] (cs1651_drone) StdoutLine: {'line': b'Installing drone_takeoff_test script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone\n'}
+[16.053907] (-) TimerEvent: {}
+[16.055670] (cs1651_drone) StdoutLine: {'line': b"writing list of installed files to '/home/chondosha/ros2_ws/build/cs1651_drone/install.log'\n"}
+[16.148164] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[16.154383] (-) TimerEvent: {}
+[16.256856] (-) TimerEvent: {}
+[16.360016] (cs1651_drone) CommandEnded: {'returncode': 0}
+[16.362363] (-) TimerEvent: {}
+[16.425759] (cs1651_drone) JobEnded: {'identifier': 'cs1651_drone', 'rc': 0}
+[16.435649] (-) EventReactorShutdown: {}

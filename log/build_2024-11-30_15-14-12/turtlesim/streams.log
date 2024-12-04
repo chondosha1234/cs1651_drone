@@ -1,0 +1,206 @@
+[3.505s] Invoking command in '/home/chondosha/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chondosha/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/chondosha/ros2_ws/install/turtlesim
+[5.427s] -- The C compiler identification is GNU 13.2.0
+[6.980s] -- The CXX compiler identification is GNU 13.2.0
+[7.179s] -- Detecting C compiler ABI info
+[8.287s] -- Detecting C compiler ABI info - done
+[8.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.356s] -- Detecting C compile features
+[8.358s] -- Detecting C compile features - done
+[8.467s] -- Detecting CXX compiler ABI info
+[9.616s] -- Detecting CXX compiler ABI info - done
+[9.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.684s] -- Detecting CXX compile features
+[9.694s] -- Detecting CXX compile features - done
+[9.767s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[11.472s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[12.954s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[13.023s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[13.897s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[14.132s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[14.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[14.734s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[15.606s] -- Found rcl_interfaces: 2.0.2 (/opt/ros/jazzy/share/rcl_interfaces/cmake)
+[16.290s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[16.674s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[16.746s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[18.042s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[18.222s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[18.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.973s] -- Found rclcpp_action: 28.1.5 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[19.451s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[19.914s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[19.980s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[24.657s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[30.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[32.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[32.203s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[33.202s] -- Found PythonExtra: /usr/bin/python3  
+[36.608s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[36.894s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[37.238s] -- Added test 'copyright' to check source files copyright and LICENSE
+[37.269s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[37.277s] -- Configured cppcheck include dirs: /home/chondosha/ros2_ws/src/ros_tutorials/turtlesim/include
+[37.278s] -- Configured cppcheck exclude dirs and/or files: 
+[37.312s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[37.313s] -- Configured cpplint exclude dirs and/or files: 
+[37.319s] -- Added test 'flake8' to check Python code syntax and style conventions
+[37.320s] -- Configured 'flake8' exclude dirs and/or files: 
+[37.329s] -- Added test 'lint_cmake' to check CMake code style
+[37.335s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[37.361s] -- Added test 'uncrustify' to check C / C++ code style
+[37.362s] -- Configured uncrustify additional arguments: 
+[37.369s] -- Added test 'xmllint' to check XML markup files
+[37.415s] -- Configuring done (33.8s)
+[38.048s] -- Generating done (0.5s)
+[38.072s] -- Build files have been written to: /home/chondosha/ros2_ws/build/turtlesim
+[38.179s] Invoked command in '/home/chondosha/ros2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/chondosha/ros2_ws/src/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/home/chondosha/ros2_ws/install/turtlesim
+[38.191s] Invoking command in '/home/chondosha/ros2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chondosha/ros2_ws/build/turtlesim -- -j4 -l4
+[38.610s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[38.687s] [  0%] Built target ament_cmake_python_copy_turtlesim
+[40.957s] running egg_info
+[40.965s] creating turtlesim.egg-info
+[40.987s] [  0%] Built target turtlesim__rosidl_generator_type_description
+[41.077s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[41.174s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[41.293s] writing turtlesim.egg-info/PKG-INFO
+[41.296s] writing dependency_links to turtlesim.egg-info/dependency_links.txt
+[41.296s] writing top-level names to turtlesim.egg-info/top_level.txt
+[41.297s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[42.306s] reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+[42.311s] writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[42.593s] [  2%] Built target ament_cmake_python_build_turtlesim_egg
+[48.992s] [  2%] Built target turtlesim__cpp
+[50.308s] [  4%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__description.c.o[0m
+[50.318s] [  4%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o[0m
+[50.336s] [  5%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[50.345s] [  6%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__description.c.o[0m
+[50.990s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o[0m
+[51.119s] [  7%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[51.644s] [  8%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o[0m
+[51.648s] [  9%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__description.c.o[0m
+[51.685s] [ 10%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[52.192s] [ 11%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__description.c.o[0m
+[52.202s] [ 12%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o[0m
+[52.296s] [ 13%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[52.465s] [ 13%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__description.c.o[0m
+[52.863s] [ 14%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o[0m
+[53.023s] [ 15%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__description.c.o[0m
+[53.040s] [ 16%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[53.225s] [ 17%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o[0m
+[53.537s] [ 18%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[53.726s] [ 19%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__description.c.o[0m
+[53.833s] [ 20%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o[0m
+[54.232s] [ 20%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[54.358s] [ 21%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o[0m
+[54.363s] [ 22%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__description.c.o[0m
+[54.787s] [ 23%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[55.205s] [ 24%] [32m[1mLinking C shared library libturtlesim__rosidl_generator_c.so[0m
+[55.571s] [ 24%] Built target turtlesim__rosidl_generator_c
+[55.669s] [ 25%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[55.676s] [ 26%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[55.678s] [ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[56.783s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[61.177s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o[0m
+[64.546s] [ 30%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o[0m
+[65.601s] [ 31%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o[0m
+[66.041s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o[0m
+[66.127s] [ 32%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o[0m
+[66.648s] [ 33%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o[0m
+[67.292s] [ 33%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o[0m
+[67.393s] [ 34%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o[0m
+[67.915s] [ 35%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o[0m
+[68.808s] [ 36%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o[0m
+[69.748s] [ 37%] [32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o[0m
+[70.909s] [ 38%] [32m[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so[0m
+[71.306s] [ 38%] Built target turtlesim__rosidl_typesupport_introspection_c
+[73.729s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o[0m
+[76.359s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o[0m
+[78.503s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o[0m
+[80.930s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o[0m
+[82.837s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o[0m
+[83.168s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o[0m
+[87.709s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[88.296s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o[0m
+[89.771s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o[0m
+[93.733s] [ 47%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o[0m
+[94.432s] [ 48%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o[0m
+[96.853s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o[0m
+[99.381s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o[0m
+[102.755s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o[0m
+[103.990s] [ 51%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o[0m
+[104.984s] [ 52%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o[0m
+[110.572s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o[0m
+[110.578s] [ 54%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so[0m
+[111.416s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o[0m
+[111.430s] [ 55%] Built target turtlesim__rosidl_typesupport_cpp
+[117.234s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o[0m
+[117.274s] [ 56%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o[0m
+[123.065s] [ 57%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so[0m
+[123.360s] [ 58%] [32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o[0m
+[123.713s] [ 58%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[128.738s] [ 59%] [32m[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so[0m
+[129.383s] [ 59%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[129.461s] [ 60%] [34m[1mGenerating include/turtlesim/moc_turtle_frame.cpp[0m
+[130.042s] [ 61%] [32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o[0m
+[160.184s] [ 62%] [32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o[0m
+[162.205s] [ 62%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[164.253s] [ 63%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[167.193s] gmake[2]: *** Deleting file 'rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp'
+[167.194s] gmake[2]: *** wait: No child processes.  Stop.
+[167.200s] gmake[2]: *** Waiting for unfinished jobs....
+[167.201s] gmake[2]: *** wait: No child processes.  Stop.
+[167.209s] gmake[1]: *** [CMakeFiles/Makefile2:659: CMakeFiles/turtle_teleop_key.dir/all] Error 2
+[167.217s] gmake[2]: *** [CMakeFiles/turtlesim_node.dir/build.make:80: CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o] Interrupt
+[167.218s] Traceback (most recent call last):
+[167.226s] gmake[1]: *** [CMakeFiles/Makefile2:631: CMakeFiles/turtlesim_node.dir/all] Interrupt
+[167.234s] gmake[2]: *** Deleting file 'rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp'
+[167.235s]   File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 31, in <module>
+[167.236s]     sys.exit(main())
+[167.245s]              ^^^^^^
+[167.254s]   File "/opt/ros/jazzy/lib/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp", line 27, in main
+[167.259s]     generate_cpp(args.generator_arguments_file)
+[167.260s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_introspection_cpp/__init__.py", line 31, in generate_cpp
+[167.265s]     return generate_files(generator_arguments_file, mapping)
+[167.271s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[167.277s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 110, in generate_files
+[167.284s]     expand_template(
+[167.295s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 183, in expand_template
+[167.301s]     content = output.getvalue()
+[167.306s]               ^^^^^^^^^^^^^^^^^
+[167.307s] Traceback (most recent call last):
+[167.313s]   File "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 28, in <module>
+[167.319s] KeyboardInterrupt
+[167.320s]     sys.exit(main())
+[167.322s]              ^^^^^^
+[167.326s]   File "/opt/ros/jazzy/lib/rosidl_typesupport_c/rosidl_typesupport_c", line 24, in main
+[167.328s]     generate_c(args.generator_arguments_file, args.typesupports)
+[167.332s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_typesupport_c/__init__.py", line 28, in generate_c
+[167.338s]     return generate_files(
+[167.343s]            ^^^^^^^^^^^^^^^
+[167.351s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_pycommon/__init__.py", line 95, in generate_files
+[167.368s]     idl_file = parse_idl_file(locator)
+[167.374s]                ^^^^^^^^^^^^^^^^^^^^^^^
+[167.380s]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rosidl_parser/parser.py", line 62, in parse_idl_file
+[167.383s]     string = locator.get_absolute_path().read_text(encoding='utf-8')
+[167.386s]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[167.390s]   File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text
+[167.395s]     with self.open(mode='r', encoding=encoding, errors=errors) as f:
+[167.396s]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[167.400s]   File "/usr/lib/python3.12/pathlib.py", line 1015, in open
+[167.402s]     return io.open(self, mode, buffering, encoding, errors, newline)
+[167.407s]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[167.414s]   File "<frozen codecs>", line 309, in __init__
+[167.433s] KeyboardInterrupt
+[167.437s] Exception ignored in: <function Interpreter.__del__ at 0xffff866d31a0>
+[167.440s] Traceback (most recent call last):
+[167.444s]   File "/usr/lib/python3/dist-packages/em.py", line 2094, in __del__
+[167.446s]   File "/usr/lib/python3/dist-packages/em.py", line 2157, in shutdown
+[167.448s]   File "/usr/lib/python3/dist-packages/em.py", line 2647, in finalize
+[167.449s]   File "/usr/lib/python3/dist-packages/em.py", line 2200, in push
+[167.451s] AttributeError: '_io.TextIOWrapper' object has no attribute 'push'
+[167.463s] gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/build.make:97: rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp] Interrupt
+[167.464s] gmake[1]: *** [CMakeFiles/Makefile2:406: CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/all] Interrupt
+[167.570s] gmake[2]: *** [CMakeFiles/turtlesim__rosidl_typesupport_c.dir/build.make:95: rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp] Interrupt
+[167.575s] gmake[1]: *** [CMakeFiles/Makefile2:379: CMakeFiles/turtlesim__rosidl_typesupport_c.dir/all] Interrupt
+[167.576s] gmake: *** [Makefile:146: all] Interrupt
+[167.582s] Invoked command in '/home/chondosha/ros2_ws/build/turtlesim' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/chondosha/ros2_ws/build/turtlesim -- -j4 -l4
