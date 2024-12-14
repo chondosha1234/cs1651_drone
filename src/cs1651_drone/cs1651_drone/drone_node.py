@@ -1,5 +1,6 @@
 import rclpy
 
+from rclpy.executors import SingleThreadedExecutor
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
 from mavros_msgs.srv import CommandTOL
@@ -91,6 +92,7 @@ class DroneNode(Node):
         
         #self.current_state = 'GROUND'
         self.commands = True
+        self.is_armed = False
 
         self.altitude = 0.0
         self.start_altitude = 0.0
@@ -127,12 +129,12 @@ class DroneNode(Node):
 
         elif msg.data == "return":
             print("return command received")
-            self.move_to_pose(0.0, 0.0, 0.0)
+            self.move_to_pos(0.0, 0.0, 0.0)
 
         elif msg.data == "land":
             print("land command received")
-            self.commands = False
-            #self.land()
+            #self.commands = False
+            self.land()
 
     
     def points_callback(self, msg):
@@ -171,22 +173,62 @@ class DroneNode(Node):
         request = SetMode.Request()
         request.custom_mode = mode
         future = self.set_mode_client.call_async(request)
+        """
         rclpy.spin_until_future_complete(self, future)
         if future.result():
             self.get_logger().info(f"Mode set to {mode} successfully.")
         else:
             self.get_logger().info(f"Failed to set mode to {mode}.")
-    
+        """
 
     # called after spinning a few times after takeoff to try to set an accurate x,y,z origin to use as reference
-    def set_origin_point():
+    def set_origin_point(self):
         self.origin_x = self.curr_x
         self.origin_y = self.curr_y
         self.origin_z = self.curr_z
         self.get_logger().info(f"Origin set at: x: {self.origin_x}  y: {self.origin_y}   z: {self.origin_z}")
 
-
+    
     def arm_drone(self, armed):
+        self.get_logger().info("enter arming")
+        request = CommandBool.Request()
+        request.value = armed
+
+        if armed:
+            self.get_logger().info("Attempting to arm drone.")
+        else:
+            self.get_logger().info("Attempting to disarm drone.")
+
+        future = self.arm_client.call_async(request)
+        future.add_done_callback(self.arm_response_callback)
+        self.get_logger().info("after future done call back set")
+   
+
+    def arm_response_callback(self, future):
+        self.get_logger().info("Inside arm response callback")
+        try:
+            response = future.result()
+
+            if response and response.success:
+                self.is_armed = not self.is_armed
+                self.get_logger().info("Arming state changed.")
+                #if armed:
+                    #self.get_logger().info("Armed success.")
+                    #self.is_armed = True
+                #else:
+                    #self.get_logger().info("Disarm success.")
+                    #self.is_armed = False
+            
+            elif response and not response.success:
+                self.get_logger().error("Failed to change arming state, response was failure.")
+            else:
+                self.get_logger().error("Failed to change arming state, future result null.")
+
+        except Exception as e:
+            self.get_logger().error("Arming service call failed.")
+
+
+    def arm_drone2(self, armed):
         self.get_logger().info("enter arming")
         request = CommandBool.Request()
         request.value = armed
@@ -215,9 +257,36 @@ class DroneNode(Node):
             rclpy.spin_once(self)
             sleep(2)
 
-    
 
     def takeoff(self, height):
+
+        self.get_logger().info("enter takeoff function") 
+        #self.set_mode("MANUAL")
+        
+        #while not self.is_armed:
+        self.arm_drone(True)
+        sleep(2)
+               
+        #while not self.is_armed:
+        #    self.get_logger().info("waiting for arming")
+
+        self.target_altitude = self.altitude + height
+        self.get_logger().info(f"set altitude: {self.altitude+height}")
+
+        request = CommandTOL.Request()
+        request.min_pitch = 0.0
+        request.yaw = 0.0
+        request.latitude = self.lat
+        request.longitude = self.long
+        request.altitude = self.target_altitude
+
+        self.get_logger().info("Starting takeoff...")
+        future = self.takeoff_client.call_async(request)
+        #rclpy.spin_until_future_complete(self, future)
+        sleep(2)
+        self.set_origin_point()
+
+    def takeoff2(self, height):
         self.get_logger().info("enter takeoff function") 
         self.set_mode("MANUAL")
 
@@ -256,6 +325,7 @@ class DroneNode(Node):
 
         self.get_logger().info("Attempting to land...")
         future = self.land_client.call_async(request)
+        """
         rclpy.spin_until_future_complete(self, future)
 
         if future.result() and future.result().success:
@@ -264,7 +334,9 @@ class DroneNode(Node):
             self.arm_drone(False)
         else:
             self.get_logger().info("Land command failed.")
-    
+        """
+        self.arm_drone(False)
+
 
     def move_to_pos(self, x, y, z):
         target_pos = PoseStamped()
@@ -275,7 +347,7 @@ class DroneNode(Node):
         self.get_logger().info("starting 1 sec position prep")
         for i in range(5):
             self.position_pub.publish(target_pos)
-            rclpy.spin_once(self)
+            #rclpy.spin_once(self)
             sleep(.10)
 
         self.set_mode("OFFBOARD")
@@ -283,7 +355,7 @@ class DroneNode(Node):
         self.get_logger().info("Starting 2 seconds of moving.")
         for i in range(20):
             self.position_pub.publish(target_pos)
-            rclpy.spin_once(self)
+            #rclpy.spin_once(self)
             sleep(.10)
 
         self.set_mode("AUTO.LOITER")
@@ -294,23 +366,24 @@ def main(args=None):
     rclpy.init(args=args)
     node = DroneNode()
 
-    rclpy.spin_once(node)
-    rclpy.spin_once(node)
-
+    #executor = SingleThreadedExecutor()
+    #executor.add_node(node)
+    
+    #executor.spin()
     #node.set_mode("MANUAL")
     #node.arm_drone(True)
-    node.takeoff(2.5)
+    #node.takeoff(2.5)
     
-    while node.altitude < node.target_altitude:
-        rclpy.spin_once(node)
+    #while node.altitude < node.target_altitude:
+     #   rclpy.spin_once(node)
     
-    node.set_origin_point()
+    #node.set_origin_point()
 
-    while node.commands == True: 
-        rclpy.spin(node)
-    #rclpy.spin(node) 
+    #while node.commands == True: 
+     #   rclpy.spin(node)
+    rclpy.spin(node) 
 
-    node.land()
+    #node.land()
 
     node.destroy_node()
     rclpy.shutdown()

@@ -1,0 +1,4 @@
+  File "/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/drone_node.py", line 221
+    def arm_drone2(self, armed):
+SyntaxError: expected 'except' or 'finally' block
+

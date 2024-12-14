@@ -1,0 +1,30 @@
+[9.695s] Invoking command in '/home/chondosha/ros2_ws/src/cs1651_drone': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chondosha/ros2_ws/build/cs1651_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cs1651_drone build --build-base /home/chondosha/ros2_ws/build/cs1651_drone/build install --record /home/chondosha/ros2_ws/build/cs1651_drone/install.log --single-version-externally-managed install_data
+[12.170s] running egg_info
+[12.373s] writing ../../build/cs1651_drone/cs1651_drone.egg-info/PKG-INFO
+[12.374s] writing dependency_links to ../../build/cs1651_drone/cs1651_drone.egg-info/dependency_links.txt
+[12.377s] writing entry points to ../../build/cs1651_drone/cs1651_drone.egg-info/entry_points.txt
+[12.379s] writing requirements to ../../build/cs1651_drone/cs1651_drone.egg-info/requires.txt
+[12.381s] writing top-level names to ../../build/cs1651_drone/cs1651_drone.egg-info/top_level.txt
+[12.867s] reading manifest file '../../build/cs1651_drone/cs1651_drone.egg-info/SOURCES.txt'
+[12.870s] adding license file 'LICENSE'
+[12.873s] writing manifest file '../../build/cs1651_drone/cs1651_drone.egg-info/SOURCES.txt'
+[12.875s] running build
+[12.876s] running build_py
+[12.877s] copying cs1651_drone/drone_node.py -> /home/chondosha/ros2_ws/build/cs1651_drone/build/lib/cs1651_drone
+[12.880s] running install
+[12.921s] running install_lib
+[13.138s] copying /home/chondosha/ros2_ws/build/cs1651_drone/build/lib/cs1651_drone/drone_node.py -> /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone
+[13.151s] byte-compiling /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/drone_node.py to drone_node.cpython-312.pyc
+[13.167s] running install_data
+[13.177s] running install_egg_info
+[13.419s] removing '/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone-0.0.0-py3.12.egg-info' (and everything under it)
+[13.436s] Copying ../../build/cs1651_drone/cs1651_drone.egg-info to /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone-0.0.0-py3.12.egg-info
+[13.452s] running install_scripts
+[14.974s] Installing blob_node script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone
+[14.981s] Installing camera_node script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone
+[14.982s] Installing control_node script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone
+[14.986s] Installing drone_listener script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone
+[14.989s] Installing drone_node script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone
+[14.991s] Installing drone_takeoff_test script to /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone
+[15.002s] writing list of installed files to '/home/chondosha/ros2_ws/build/cs1651_drone/install.log'
+[15.328s] Invoked command in '/home/chondosha/ros2_ws/src/cs1651_drone' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chondosha/ros2_ws/build/cs1651_drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/cs1651_drone build --build-base /home/chondosha/ros2_ws/build/cs1651_drone/build install --record /home/chondosha/ros2_ws/build/cs1651_drone/install.log --single-version-externally-managed install_data
