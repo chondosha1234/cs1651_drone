@@ -1,0 +1,5 @@
+  File "/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/control_node.py", line 55
+    "
+    ^
+SyntaxError: unterminated string literal (detected at line 55)
+

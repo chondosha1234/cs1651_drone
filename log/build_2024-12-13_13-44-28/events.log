@@ -1,0 +1,38 @@
+[0.000000] (-) TimerEvent: {}
+[0.001425] (cs1651_drone) JobQueued: {'identifier': 'cs1651_drone', 'dependencies': OrderedDict()}
+[0.002475] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.003465] (cs1651_drone) JobStarted: {'identifier': 'cs1651_drone'}
+[0.073594] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099018] (-) TimerEvent: {}
+[0.201850] (-) TimerEvent: {}
+[0.302548] (-) TimerEvent: {}
+[0.403321] (-) TimerEvent: {}
+[0.504087] (-) TimerEvent: {}
+[0.604821] (-) TimerEvent: {}
+[0.705600] (-) TimerEvent: {}
+[0.806828] (-) TimerEvent: {}
+[0.907512] (-) TimerEvent: {}
+[1.008247] (-) TimerEvent: {}
+[1.108973] (-) TimerEvent: {}
+[1.209647] (-) TimerEvent: {}
+[1.310426] (-) TimerEvent: {}
+[1.411171] (-) TimerEvent: {}
+[1.511866] (-) TimerEvent: {}
+[1.612769] (-) TimerEvent: {}
+[1.713579] (-) TimerEvent: {}
+[1.814764] (-) TimerEvent: {}
+[1.915585] (-) TimerEvent: {}
+[2.016355] (-) TimerEvent: {}
+[2.117167] (-) TimerEvent: {}
+[2.217920] (-) TimerEvent: {}
+[2.318653] (-) TimerEvent: {}
+[2.419476] (-) TimerEvent: {}
+[2.520301] (-) TimerEvent: {}
+[2.621096] (-) TimerEvent: {}
+[2.721818] (-) TimerEvent: {}
+[2.822537] (-) TimerEvent: {}
+[2.923304] (-) TimerEvent: {}
+[3.025869] (-) TimerEvent: {}
+[3.027453] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[3.031769] (cs1651_drone) JobEnded: {'identifier': 'cs1651_drone', 'rc': 'SIGINT'}
+[3.046994] (-) EventReactorShutdown: {}

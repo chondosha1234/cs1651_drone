@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'cs1651_drone'
 
@@ -10,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name), glob('launch/*.launch.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -21,8 +24,10 @@ setup(
     entry_points={
         'console_scripts': [
             'camera_node = cs1651_drone.camera_node:main',
+            'blob_node = cs1651_drone.blob_node:main',
             'drone_listener = cs1651_drone.drone_listener:main',
             'drone_node = cs1651_drone.drone_node:main',
+            'control_node = cs1651_drone.control_node:main',
             'drone_takeoff_test = cs1651_drone.drone_takeoff_test:main',
         ],
     },

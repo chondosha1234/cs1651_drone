@@ -1,0 +1,24 @@
+[8.070s] Invoking command in '/home/chondosha/ros2_ws/src/my_package': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chondosha/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/chondosha/ros2_ws/build/my_package/build install --record /home/chondosha/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
+[10.064s] running egg_info
+[10.218s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[10.220s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[10.224s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[10.226s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[10.228s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[10.549s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[10.551s] adding license file 'LICENSE'
+[10.554s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[10.562s] running build
+[10.563s] running build_py
+[10.564s] running install
+[10.589s] running install_lib
+[10.751s] running install_data
+[10.755s] running install_egg_info
+[10.919s] removing '/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info' (and everything under it)
+[10.921s] Copying ../../build/my_package/my_package.egg-info to /home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages/my_package-0.0.0-py3.12.egg-info
+[10.929s] running install_scripts
+[11.961s] Installing drone_publisher script to /home/chondosha/ros2_ws/install/my_package/lib/my_package
+[11.963s] Installing mavsdk_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package
+[11.966s] Installing my_node script to /home/chondosha/ros2_ws/install/my_package/lib/my_package
+[11.967s] writing list of installed files to '/home/chondosha/ros2_ws/build/my_package/install.log'
+[12.157s] Invoked command in '/home/chondosha/ros2_ws/src/my_package' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/chondosha/ros2_ws/build/my_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/chondosha/ros2_ws/install/my_package/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/chondosha/ros2_ws/build/my_package/build install --record /home/chondosha/ros2_ws/build/my_package/install.log --single-version-externally-managed install_data
