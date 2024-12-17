@@ -27,6 +27,7 @@ setup(
             'blob_node = cs1651_drone.blob_node:main',
             'drone_listener = cs1651_drone.drone_listener:main',
             'drone_node = cs1651_drone.drone_node:main',
+            'sync_node = cs1651_drone.synchronizer:main',
             'control_node = cs1651_drone.control_node:main',
             'drone_takeoff_test = cs1651_drone.drone_takeoff_test:main',
         ],

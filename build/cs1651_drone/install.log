@@ -1,5 +1,6 @@
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__init__.py
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/drone_node.py
+/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/synchronizer.py
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/drone_takeoff_test.py
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/camera_node_basic.py
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/camera_node.py
@@ -7,6 +8,7 @@
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/control_node.py
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__pycache__/__init__.cpython-312.pyc
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__pycache__/drone_node.cpython-312.pyc
+/home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__pycache__/synchronizer.cpython-312.pyc
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__pycache__/drone_takeoff_test.cpython-312.pyc
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__pycache__/camera_node_basic.cpython-312.pyc
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/python3.12/site-packages/cs1651_drone/__pycache__/camera_node.cpython-312.pyc
@@ -28,3 +30,4 @@
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone/drone_listener
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone/drone_node
 /home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone/drone_takeoff_test
+/home/chondosha/ros2_ws/install/cs1651_drone/lib/cs1651_drone/sync_node

@@ -1,11 +1,12 @@
 import rclpy
-
+import math
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import NavSatFix
 from mavros_msgs.msg import State
 from time import sleep 
+from tf_transformations import euler_from_quaternion
 
 class DroneListener(Node):
 
@@ -71,15 +72,21 @@ class DroneListener(Node):
         poseX = msg.pose.pose.position.x
         poseY = msg.pose.pose.position.y
         poseZ = msg.pose.pose.position.z
+        
+        orientation = msg.pose.pose.orientation
+        (_, _, yaw) = euler_from_quaternion([orientation.x, orientation.y, orientation.z, orientation.w])
+        yaw = math.degrees(yaw)
+
+        self.get_logger().info(f"yaw: {yaw}")
 
         twistX = msg.twist.twist.linear.x
         twistY = msg.twist.twist.linear.y
         twistZ = msg.twist.twist.linear.z
 
-        self.get_logger().info("Pose x,y,z")
-        self.get_logger().info(f"\tx: {poseX}")
-        self.get_logger().info(f"\ty: {poseY}")
-        self.get_logger().info(f"\tz: {poseZ}")
+        #self.get_logger().info("Pose x,y,z")
+        #self.get_logger().info(f"\tx: {poseX}")
+        #self.get_logger().info(f"\ty: {poseY}")
+        #self.get_logger().info(f"\tz: {poseZ}")
 
         #self.get_logger().info("Twist x,y,z")
         #self.get_logger().info(f"\tx: {twistX}")

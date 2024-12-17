@@ -22,6 +22,13 @@ def generate_launch_description():
             ]
         ),
         Node(
+            package='cs1651_drone',
+            executable='sync_node',
+            name='sync_node',
+            parameters=[],
+            remappings=[]
+        ),
+        Node(
             package='apriltag_ros',
             executable='apriltag_node',
             name='apriltag_node',
@@ -29,11 +36,12 @@ def generate_launch_description():
             remappings=[
                 #('/image_raw', '/camera/image_raw'),
                 #('/camera_info', '/camera/camera_info')
-                ('image_rect', '/image_raw'),
+                ('image_rect', '/image_rect'),
                 ('camera_info', '/camera_info')
             ],
             parameters=[
-                {'params_file': tags_36h11_yaml_file}
+                {'params_file': tags_36h11_yaml_file},
+                {'approx_sync': False}
             ]
         ),
         Node(

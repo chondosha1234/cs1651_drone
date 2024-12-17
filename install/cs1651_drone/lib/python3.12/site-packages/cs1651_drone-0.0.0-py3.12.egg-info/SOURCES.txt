@@ -16,6 +16,7 @@ cs1651_drone/control_node.py
 cs1651_drone/drone_listener.py
 cs1651_drone/drone_node.py
 cs1651_drone/drone_takeoff_test.py
+cs1651_drone/synchronizer.py
 launch/apriltag.launch.py
 resource/cs1651_drone
 test/test_copyright.py
